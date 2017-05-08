@@ -35,7 +35,7 @@ RUN pip3 install scipy
 RUN pip3 install scikit-learn
 
 # install spark and zeppelin
-ENV SPARK_VERSION 2.1.0
+ENV SPARK_VERSION 2.1.1
 ENV SPARK_HADOOP_PROFILE 2.7
 ENV SPARK_SRC_URL https://www.apache.org/dist/spark/spark-$SPARK_VERSION/spark-${SPARK_VERSION}-bin-hadoop${SPARK_HADOOP_PROFILE}.tgz
 ENV SPARK_HOME=/opt/spark
