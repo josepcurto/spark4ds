@@ -4,9 +4,9 @@ A `rocker/r-base:latest` based [Spark](http://apache.apache.org) and [Zeppelin](
 
 This image contains:
 
-- [Spark 2.1.1](http://spark.apache.org/docs/2.1.1), [Hadoop 2.7](http://hadoop.apache.org) and [Zeppelin 0.7.0](http://zeppelin.apache.org)
-- [R 3.4](https://www.r-project.org)
-- [PySpark](http://spark.apache.org/docs/2.1.0/api/python) support with [Python 3.5](https://docs.python.org/3.5), [NumPy](http://www.numpy.org), [PandaSQL](https://github.com/yhat/pandasql), [SciPy](https://www.scipy.org/scipylib/index.html) and [scikit-learn](http://scikit-learn.org/)
+- [Spark 2.2.0](http://spark.apache.org/docs/2.2.0), [Hadoop 2.7](http://hadoop.apache.org) and [Zeppelin 0.7.0](http://zeppelin.apache.org)
+- [R 3.4.1](https://www.r-project.org)
+- [PySpark](http://spark.apache.org/docs/2.2.0/api/python) support with [Python 3.7](https://docs.python.org/3.5), [NumPy](http://www.numpy.org), [PandaSQL](https://github.com/yhat/pandasql), [SciPy](https://www.scipy.org/scipylib/index.html) and [scikit-learn](http://scikit-learn.org/)
 - Some interpreters out-of-the-box. If your favorite interpreter isn't included, consider [adding it with the api](http://zeppelin.apache.org/docs/0.7.0-SNAPSHOT/manual/dynamicinterpreterload.html).
   - spark
   - shell
